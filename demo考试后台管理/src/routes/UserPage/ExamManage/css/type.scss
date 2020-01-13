@@ -1,0 +1,52 @@
+
+    :global{
+    .example {
+        width: 100%;
+        height: 100%;
+        // background: rgba(0, 0, 0, 0.05);
+        border-radius: 4px;
+        margin-bottom: 20px;
+        padding: 30px 50px;
+        margin: 20px 0;
+        }
+    .top{
+        margin: 10px 0;
+    }
+    .itemName{
+        padding: 4px;
+        background: blue;
+    }
+    .top span{
+        width: 100%;
+        height: 50px;
+        font-size: 4px;
+        color: #cccccc;
+        margin: 10px;
+    }
+    .item{
+        width: 100%;
+        height: 80px;
+        border-bottom: 1px solid #cccccc;
+        li{
+            width: 100%;
+            height: 40px;
+            overflow: hidden;
+            font-weight: 900;
+            line-height: 35px;
+        }
+        p{
+            width: 100%;
+            height: 30px;
+            display: flex;
+            justify-content: space-between;
+            .spans{
+                height: 30px;
+                background: #cccccc;
+                border: 1px solid black;
+                padding: 3px;
+                font-size: 12px;
+                border-radius: 5px;
+            }
+        }
+    
+}}

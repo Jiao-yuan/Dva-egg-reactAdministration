@@ -1,0 +1,41 @@
+:global .ant-select-selection--single {
+  width: 300px;
+  line-height: 10px;
+}
+
+.addclass {
+  width: 512px;
+  height: 512px;
+  background: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -250px;
+  margin-top: -250px;
+}
+
+.addclass input {
+  width: 60%;
+}
+
+.addclass div {
+  padding-left: 10px;
+  margin-top: 15px;
+}
+
+.addclass div button {
+  margin-right: 20px;
+}
+
+.addclass select {
+  width: 300px;
+}
+
+.alert {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+}
